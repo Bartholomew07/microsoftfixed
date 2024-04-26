@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Games</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #f1f1f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .game-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 200px;
+        }
+        .game-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .game-description {
+            font-size: 14px;
+            color: #666;
+        }
+        .game-thumbnail {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pokémon Games</h1>
+        <button>Red & Green</button>
+        <button>Blue</button>
+        <!-- Add buttons for other games here -->
+    </header>
+    <div class="game-container">
+        <div class="game-card">
+            <img width="32" height="32" title="Red & Green" alt="Red & Green" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAA ...">
+            <div class="game-title">Pokémon Red & Green</div>
+            <div class="game-description">The first games in the Pokémon series.</div>
+        </div>
+        <div class="game-card">
+            <img width="32" height="32" title="Blue" alt="Blue" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAA ...">
+            <div class="game-title">Pokémon Blue</div>
+            <div class="game-description">Released 8 months after Red & Green.</div>
+        </div>
+        <!-- Add more game cards here -->
+    </div>
+    <div id="suggestions">
+        <a href="https://githubstatus.com">GitHub Status</a> — Check the status of GitHub services.
+    </div>
+    <script>
+        // Add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
